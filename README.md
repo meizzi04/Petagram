@@ -1,5 +1,5 @@
 # Petagram
-### 사용 툴
+### Tools
 #### 설계
 - Figma
 - draw.io
@@ -7,7 +7,8 @@
 - sts3
 - Apache Tomcat 9
 #### 협업
-- Notion: https://www.notion.so/545ee808b70049b3842131f25d02f63d
+- Notion
+  - https://www.notion.so/545ee808b70049b3842131f25d02f63d
 
 ### 역할
 |기술|기능|
