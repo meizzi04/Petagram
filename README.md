@@ -23,9 +23,13 @@
 |Frontend|HTML, CSS, JavaScript, jQuery, JSP|
 |Backend|Java 11, Spring, Mybatis, MySQL|
 
-### 공공데이터 API
-- 경기도 동물병원 현황 활용
-  - https://www.data.go.kr/data/15057867/openapi.do
+### Open API
+- NCP
+  - Naver Map API(Web Dynamic Map API)
+    - https://guide.ncloud-docs.com/docs/ko/maps-web-sdk
+- 공공데이터
+  - 경기도 동물병원 현황
+    - https://www.data.go.kr/data/15057867/openapi.do
 
 ## 목차
 1. [설계 UI](#설계-ui)
