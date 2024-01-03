@@ -35,8 +35,9 @@
 1. [설계 UI](#설계-ui)
 2. [Sequence Diagram](#sequence-diagram)
 3. [ERD](#erd)
-4. [구현 UI](#구현-ui)
-5. [API](#api)
+4. [API](#api)
+5. [구현 페이지 상세 기능](#구현-페이지-상세-기능)
+6. [결과 UI](#결과-ui)
 
 ## 설계
 ### 설계 UI
@@ -51,7 +52,34 @@
 ![ERD](https://github.com/meizzi04/Petagram/assets/86556226/83f1160a-e687-42dd-a5be-c13f8aba9127)
 
 ## 구현
-### 구현 UI
+### API
+- https://harmonious-canvas-592.notion.site/API-1e967a8c4ebb470386151be3141cbbc6?pvs=4
+
+### 구현 페이지 상세 기능
+- 게시글 상세 페이지
+  - 게시글 Body
+    - 제목, 내용, 작성자, 작성자, 작성날짜
+  - 게시글 수정
+    - 수정 권한 검사(작성자만)
+    - 게시글 수정 페이지로 이동
+  - 게시글 삭제
+    - 삭제 권한 검사(작성자만)
+    - 삭제 후 전체 게시글 페이지로 이동
+  - 좋아요
+    - 좋아요 수 기능
+    - 한 게시물당 한번씩 추천 가능하도록 제한
+  - 링크 복사
+    - 해당 페이지 URL 복사
+  - 댓글
+    - 댓글 등록 및 삭제
+    - 댓글 입력하지 않고 등록하면 팝업창 띄우기  
+- 동물병원 페이지
+  - Naver Map API 활용
+    - 특정 동물병원 클릭 시 해당 병원에 대한 위치와 상세 주소 출력
+  - 동물병원 리스트
+    - 입력한 주소에 해당하는 모든 동물병원 출력
+
+### 결과 UI
 - 로그인 페이지
 ![Login](https://github.com/meizzi04/Petagram/assets/86556226/7b1acbfc-8b53-4245-b3be-bfc027ad0095)
 - 회원가입 페이지
@@ -74,6 +102,3 @@
 ![HospitalInfo](https://github.com/meizzi04/Petagram/assets/86556226/28d5e278-f4ac-4e89-80c0-3661686f1f7d)
 - 공지사항 페이지
 ![Inform](https://github.com/meizzi04/Petagram/assets/86556226/3ac8a8d1-9af9-44d6-ae4f-ba7d8845d49e)
-
-### API
-- https://harmonious-canvas-592.notion.site/API-1e967a8c4ebb470386151be3141cbbc6?pvs=4
